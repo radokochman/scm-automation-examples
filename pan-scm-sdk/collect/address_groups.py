@@ -18,5 +18,5 @@ address_groups = address_group_instance.list(folder='All', exact_match=True)
 
 for address_group in address_groups:
     print(
-        f'Address name: {address_group.name}, static values: {address_group.static}, UUID: {address_group.id}',
+        f'Address group name: {address_group.name}, static values: {address_group.static}, UUID: {address_group.id}',
     )
